@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="HotelWebApplication">
+</Property><Property Name="Solution File" Value="C:\Users\Rami\Documents\Visual Studio 2010\Projects\HotelWebApplication\HotelWebApplication.sln">
+</Property><Property Name="Date" Value="Friday, November 21, 2014">
+</Property><Property Name="Time" Value="22:46 PM">
+</Property></Properties><Event ErrorLevel="0" Project="HotelWebApplication" Source="HotelWebApplication\HotelWebApplication.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="HotelWebApplication" Source="HotelWebApplication\HotelWebApplication.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="HotelWebApplication.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="HotelWebApplication.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="HotelWebApplication" Source="HotelWebApplication\HotelWebApplication.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

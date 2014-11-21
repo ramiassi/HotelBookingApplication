@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8FC973B9-2A88-46FB-9066-C9A4F5F126D8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HotelWebApplication</RootNamespace>
+    <AssemblyName>HotelWebApplication</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.5.60919.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\AjaxControlToolkit.Binary.NET35\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Booking.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="App_Themes\Theme1\ie_png.js" />
+    <Content Include="App_Themes\Theme1\ie_style.css" />
+    <Content Include="App_Themes\Theme1\images\1page-img1.png" />
+    <Content Include="App_Themes\Theme1\images\2page-img1.jpg" />
+    <Content Include="App_Themes\Theme1\images\2page-img10.jpg" />
+    <Content Include="App_Themes\Theme1\images\2page-img11.png" />
+    <Content Include="App_Themes\Theme1\images\2page-img12.png" />
+    <Content Include="App_Themes\Theme1\images\2page-img13.png" />
+    <Content Include="App_Themes\Theme1\images\2page-img2.jpg" />
+    <Content Include="App_Themes\Theme1\images\2page-img3.jpg" />
+    <Content Include="App_Themes\Theme1\images\2page-img4.jpg" />
+    <Content Include="App_Themes\Theme1\images\2page-img5.jpg" />
+    <Content Include="App_Themes\Theme1\images\2page-img6.jpg" />
+    <Content Include="App_Themes\Theme1\images\2page-img7.jpg" />
+    <Content Include="App_Themes\Theme1\images\2page-img8.jpg" />
+    <Content Include="App_Themes\Theme1\images\2page-img9.jpg" />
+    <Content Include="App_Themes\Theme1\images\3page-img1.jpg" />
+    <Content Include="App_Themes\Theme1\images\3page-img10.jpg" />
+    <Content Include="App_Themes\Theme1\images\3page-img11.jpg" />
+    <Content Include="App_Themes\Theme1\images\3page-img12.jpg" />
+    <Content Include="App_Themes\Theme1\images\3page-img13.jpg" />
+    <Content Include="App_Themes\Theme1\images\3page-img2.jpg" />
+    <Content Include="App_Themes\Theme1\images\3page-img3.jpg" />
+    <Content Include="App_Themes\Theme1\images\3page-img4.jpg" />
+    <Content Include="App_Themes\Theme1\images\3page-img5.jpg" />
+    <Content Include="App_Themes\Theme1\images\3page-img6.jpg" />
+    <Content Include="App_Themes\Theme1\images\3page-img7.jpg" />
+    <Content Include="App_Themes\Theme1\images\3page-img8.jpg" />
+    <Content Include="App_Themes\Theme1\images\3page-img9.jpg" />
+    <Content Include="App_Themes\Theme1\images\4page-img1.png" />
+    <Content Include="App_Themes\Theme1\images\5page-img1.png" />
+    <Content Include="App_Themes\Theme1\images\body-bg.gif" />
+    <Content Include="App_Themes\Theme1\images\bull1.gif" />
+    <Content Include="App_Themes\Theme1\images\button-bg.gif" />
+    <Content Include="App_Themes\Theme1\images\button-side.gif" />
+    <Content Include="App_Themes\Theme1\images\content-bg.png" />
+    <Content Include="App_Themes\Theme1\images\gallery-wrapper.png" />
+    <Content Include="App_Themes\Theme1\images\header-bg-small.jpg" />
+    <Content Include="App_Themes\Theme1\images\header-bg-top.jpg" />
+    <Content Include="App_Themes\Theme1\images\header-bg.png" />
+    <Content Include="App_Themes\Theme1\images\header-bg1.jpg" />
+    <Content Include="App_Themes\Theme1\images\header-bg1.png" />
+    <Content Include="App_Themes\Theme1\images\header-box-small.png" />
+    <Content Include="App_Themes\Theme1\images\img-empty.png" />
+    <Content Include="App_Themes\Theme1\images\img-wrapper.png" />
+    <Content Include="App_Themes\Theme1\images\line-ver.gif" />
+    <Content Include="App_Themes\Theme1\images\nav-bg1.png" />
+    <Content Include="App_Themes\Theme1\images\nav-bg2.png" />
+    <Content Include="App_Themes\Theme1\images\next.png" />
+    <Content Include="App_Themes\Theme1\images\prev.png" />
+    <Content Include="App_Themes\Theme1\images\spacer.gif" />
+    <Content Include="App_Themes\Theme1\layout.css" />
+    <Content Include="App_Themes\Theme1\maxheight.js" />
+    <Content Include="App_Themes\Theme1\style.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aboutus.aspx.cs">
+      <DependentUpon>Aboutus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aboutus.aspx.designer.cs">
+      <DependentUpon>Aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminOffers.aspx.cs">
+      <DependentUpon>AdminOffers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminOffers.aspx.designer.cs">
+      <DependentUpon>AdminOffers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminReservs.aspx.cs">
+      <DependentUpon>AdminReservs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminReservs.aspx.designer.cs">
+      <DependentUpon>AdminReservs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminRooms.aspx.cs">
+      <DependentUpon>AdminRooms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminRooms.aspx.designer.cs">
+      <DependentUpon>AdminRooms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SiteAdmin.Master.cs">
+      <DependentUpon>SiteAdmin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SiteAdmin.Master.designer.cs">
+      <DependentUpon>SiteAdmin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Booking.aspx.cs">
+      <DependentUpon>Booking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Booking.aspx.designer.cs">
+      <DependentUpon>Booking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contactus.aspx.cs">
+      <DependentUpon>Contactus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contactus.aspx.designer.cs">
+      <DependentUpon>Contactus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DBCode\DBHelper.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="printReservation.aspx.cs">
+      <DependentUpon>printReservation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="printReservation.aspx.designer.cs">
+      <DependentUpon>printReservation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Restaurant.aspx.cs">
+      <DependentUpon>Restaurant.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restaurant.aspx.designer.cs">
+      <DependentUpon>Restaurant.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services.aspx.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services.aspx.designer.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\DB.mdf">
+    </Content>
+    <Content Include="App_Data\DB_log.LDF">
+      <DependentUpon>DB.mdf</DependentUpon>
+    </Content>
+    <Content Include="Site1.Master" />
+    <Content Include="App_Themes\Theme1\images\available.png" />
+    <Content Include="App_Themes\Theme1\images\notavailable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Aboutus.aspx" />
+    <Content Include="Admin\AdminOffers.aspx" />
+    <Content Include="Admin\AdminReservs.aspx" />
+    <Content Include="Admin\AdminRooms.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Admin\SiteAdmin.Master" />
+    <Content Include="Contactus.aspx" />
+    <Content Include="printReservation.aspx" />
+    <Content Include="Restaurant.aspx" />
+    <Content Include="Services.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2176</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
